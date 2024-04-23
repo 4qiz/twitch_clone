@@ -4,7 +4,7 @@ import { ToggleCardSkeleton } from "./_components/toggle-card";
 const Loading = () => {
   return (
     <div className="p-6 space-y-4">
-      <Skeleton className="h-10 w-[200px]"></Skeleton>
+      <Skeleton className="h-10 w-[200px]" />
       <div className="space-y-4">
         <ToggleCardSkeleton />
         <ToggleCardSkeleton />
